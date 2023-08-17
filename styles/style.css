@@ -23,12 +23,6 @@ h1{
     font-weight: bold;
 }
 
-@media (max-width: 600px) {
-    .photo {
-        margin-top: 40%;
-    }
-}
-
 .content {
     min-height: calc(100vh - 100px);
     position: relative;
@@ -48,4 +42,18 @@ li {
 
 .icons {
     height: 25px;
+}
+
+@media (max-width: 600px) {
+    .photo {
+        margin-top: 30%;
+    }
+
+    .content {
+        min-height: auto;
+      }
+
+    .icons {
+        margin-top: 20%;
+    }
 }
