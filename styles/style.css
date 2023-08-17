@@ -23,6 +23,12 @@ h1{
     font-weight: bold;
 }
 
+@media (max-width: 600px) {
+    .photo {
+        margin-top: 40%;
+    }
+}
+
 .content {
     min-height: calc(100vh - 100px);
     position: relative;
